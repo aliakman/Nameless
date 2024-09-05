@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2899127683d5cb341b665f217e3506aa, type: 3}
+  m_Name: PlayerStats
+  m_EditorClassIdentifier: 
+  characterType: 1
+  attackType: 0
+  id: player
+  characterName: Player
+  level: 1
+  rage: 0
+  rageReducer: 0
+  moveSpeed: 10
+  lookAtSpeed: 25
+  attackDashSpeed: 10
+  skills:
+  - {fileID: -2940646657231922948, guid: aeecbeaaeab31174aa335253648f7ad2, type: 3}
+  - {fileID: -8827498928973487552, guid: 5bb5f60b405e91947865a6a58f2ad4c3, type: 3}
+  - {fileID: -1072676480488557835, guid: 4b4dad3cd9b43e6468fabef3c4e951f0, type: 3}
+  - {fileID: 8424555736314586612, guid: 703f3ef094f76444d999f2b800dc5c59, type: 3}
+  weapons: []
+  moveSkill: 6
+  jumpSkill: 7
+  dashSkill: 5
